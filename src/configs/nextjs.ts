@@ -26,6 +26,7 @@ export async function nextjs(
     pluginNextJs,
   ] = await Promise.all([
     interopDefault(import('@next/eslint-plugin-next')),
+    // ...some other plugins?
   ] as const)
 
   return [
