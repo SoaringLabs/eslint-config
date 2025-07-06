@@ -375,6 +375,14 @@ export interface OptionsConfig extends OptionsComponentExts, OptionsProjectType 
    * @default false
    */
   react?: boolean | OptionsOverrides
+
+  /**
+   * Enable nextjs rules.
+   *
+   * @default false
+   */
+  nextjs?: boolean | OptionsOverrides
+
   /**
    * Enable solid rules.
    *
