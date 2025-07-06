@@ -1,5 +1,5 @@
 {
-  "name": "@soaring/eslint-config",
+  "name": "@soaring-labs/eslint-config",
   "type": "module",
   "version": "0.0.2",
   "packageManager": "pnpm@10.12.4",
