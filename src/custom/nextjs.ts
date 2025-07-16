@@ -15,6 +15,7 @@ export const nextjsAntfuOptions: NextjsOptions = {
   // Ignored paths
   ignores: [
     'migrations/**/*',
+    'next-env.d.ts',
   ],
   isInEditor: false,
 
@@ -26,7 +27,7 @@ export const nextjsAntfuOptions: NextjsOptions = {
 
   // Code style
   stylistic: {
-    semi: true,
+    semi: false,
   },
 
   typescript: true,
